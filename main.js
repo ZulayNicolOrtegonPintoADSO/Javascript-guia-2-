@@ -1,6 +1,7 @@
 addEventListener("DOMContentLoaded", ()=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 1. Escribir un programa que sume, reste, multiplique y divida dos números 
     
     let valor1 = Number(prompt("Ingrese valor para a:"))
@@ -14,10 +15,20 @@ addEventListener("DOMContentLoaded", ()=>{
     // descuento, realice un algoritmo que indique cuanto fue el valor a pagar por cada producto y el total
     // de la compra.
 >>>>>>> b48fc13 (Ejercicio 2 F2)
-    
-    let p1 =Number(prompt("Ingrese valor del producto 1:"))
-    des =  p1 - (p1 * 0.05)
+=======
 
+    // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
+    // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
+    // depósito.
+    // • Q=V/t, siendo Q (caudal), V (volumen) y t (tiempo).
+    // • Volumen = PI *(radio^2)* H (altura del depósito)
+    // • El tiempo se encuentra en minutos.
+    // • Normalmente se mide el volumen en litros y el tiempo en segundos
+>>>>>>> 4d123a3 (Ejercicio 3 F2)
+    
+    let h =Number(prompt("Altura del depósito:"))
+
+<<<<<<< HEAD
 <<<<<<< HEAD
     console.log (`${(x2-x1)^2 + (y2-y1)^2}`);
 >>>>>>> 0a51016 (Ejercicio 1 F2)
@@ -30,15 +41,24 @@ addEventListener("DOMContentLoaded", ()=>{
 =======
     let p2 =Number(prompt("Ingrese valor del producto 2:"))
     des2 =  p2 - (p2 * 0.05)
+=======
+    let r =Number(prompt("Radio del pepósito:"))
+>>>>>>> 4d123a3 (Ejercicio 3 F2)
 
-    let p3 =Number(prompt("Ingrese valor del producto 3:"))
+    v=((Math.PI) * (r**2) * h)
 
-    let p4 =Number(prompt("Ingrese valor del producto 4:"))
-    des4 =  p1 - (p1 * 0.02)
+    let tm = Number(prompt("Tiempo:"))
 
+<<<<<<< HEAD
     let p5 =Number(prompt("Ingrese valor del producto 5:"))
     des5 =  p1 - (p1 * 0.02)
 
     console.log (`El valor de los productos con descuento es: \n -producto 1 = ${des} \n -producto 2 = ${des2} \n -producto 3 = ${p3} \n -producto 4 = ${des4} \n -producto 5 = ${des5}`);
 >>>>>>> b48fc13 (Ejercicio 2 F2)
+=======
+    ts= tm * 60
+    q= v/ts
+    
+    console.log (`El resultado de tiempo estimado para el llenado de un depósito cuyo volumen es de ${v} litros es ${q} segundos`);
+>>>>>>> 4d123a3 (Ejercicio 3 F2)
 })
