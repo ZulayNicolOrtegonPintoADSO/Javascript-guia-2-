@@ -19,6 +19,7 @@ addEventListener("DOMContentLoaded", ()=>{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
     // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
     // depósito.
@@ -81,10 +82,15 @@ console.log(`El jefe de obra pagó un total de ${pagó}, sus vueltos fueron ${vu
   // de chocolate. Por cada 100 gramos de harina hay que añadir 10 gramos de cacao y un puñado de
   // nueces. Si quiero prepararlos con 20 gramos de chocolate. La cantidad de gramos de harina   para
   // hacer el bizcocho es
+=======
+  // 6. Un camión transporta 25 cajas de repuestos de carros. Si cada caja pesa 748 Kg ¿ Cuántos Kg
+  //  transporta ?
+>>>>>>> 4ef0fa9 (Ejercicio 6 F2)
 
-  let g = Number(prompt("¿Cuántos gramos de cacao desea añadir a la preparación?"))
-  arina = g * 10
-  console.log(`La cantidad de harina que tiene que añadir a su preparación  es de ${arina}`)
+  cajas=25
+  cajasc=748
+  total=cajas*cajasc
+  console.log(`Transporta ${total} kg`)
 
 >>>>>>> 9892217 (Ejercicio 5 F2)
 })
