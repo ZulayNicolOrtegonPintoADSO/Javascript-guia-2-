@@ -20,6 +20,7 @@ addEventListener("DOMContentLoaded", ()=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
     // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
     // depósito.
@@ -91,6 +92,16 @@ console.log(`El jefe de obra pagó un total de ${pagó}, sus vueltos fueron ${vu
   cajasc=748
   total=cajas*cajasc
   console.log(`Transporta ${total} kg`)
+=======
+  // 7. tres estudiantes reunieron tapas de gaseosas para repartirlas y venderlas al final del año. Martin toma
+  // 2/3 del total. Jairo un   cuarto del total, y Lorena se   queda con el resto. ¿qué   parte le corresponde a
+  // Lorena?
+  total=10
+  Martín=2/3
+  Jairo=1/5
+  lorena= 10 - 2/3 - 1/5
+  console.log(`A Lorena le corresponde ${lorena}`)
+>>>>>>> 3504c92 (Ejercicio 7 F2)
 
 >>>>>>> 9892217 (Ejercicio 5 F2)
 })
