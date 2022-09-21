@@ -18,6 +18,7 @@ addEventListener("DOMContentLoaded", ()=>{
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
     // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
     // depósito.
@@ -75,4 +76,15 @@ vuelto= 91000
 tenía= pagó + vuelto
 console.log(`El jefe de obra pagó un total de ${pagó}, sus vueltos fueron ${vuelto}, es decir que tenía un total de ${tenía}`)
 >>>>>>> ef60c38 (Ejercicio 4 F2)
+=======
+  // 5.En el programa de cocina de “Doña Anita” han dado la receta para la preparación de   bizcocho especial
+  // de chocolate. Por cada 100 gramos de harina hay que añadir 10 gramos de cacao y un puñado de
+  // nueces. Si quiero prepararlos con 20 gramos de chocolate. La cantidad de gramos de harina   para
+  // hacer el bizcocho es
+
+  let g = Number(prompt("¿Cuántos gramos de cacao desea añadir a la preparación?"))
+  arina = g * 10
+  console.log(`La cantidad de harina que tiene que añadir a su preparación  es de ${arina}`)
+
+>>>>>>> 9892217 (Ejercicio 5 F2)
 })
