@@ -17,6 +17,7 @@ addEventListener("DOMContentLoaded", ()=>{
 >>>>>>> b48fc13 (Ejercicio 2 F2)
 =======
 
+<<<<<<< HEAD
     // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
     // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
     // depósito.
@@ -61,4 +62,17 @@ addEventListener("DOMContentLoaded", ()=>{
     
     console.log (`El resultado de tiempo estimado para el llenado de un depósito cuyo volumen es de ${v} litros es ${q} segundos`);
 >>>>>>> 4d123a3 (Ejercicio 3 F2)
+=======
+//4. Un jefe de obra con el dinero que tiene compra cinco juegos de llaves hexagonales cada  uno por
+// $11500. Una bomba en $1168000 y tres cajas de pernos cada uno por $87000. Después de pagar  le
+// sobran $91000. ¿cuánto dinero tenía?
+
+llaves= 5*11500
+bomba= 1168000
+cajas= 3*87000
+pagó= llaves + bomba + cajas
+vuelto= 91000
+tenía= pagó + vuelto
+console.log(`El jefe de obra pagó un total de ${pagó}, sus vueltos fueron ${vuelto}, es decir que tenía un total de ${tenía}`)
+>>>>>>> ef60c38 (Ejercicio 4 F2)
 })
