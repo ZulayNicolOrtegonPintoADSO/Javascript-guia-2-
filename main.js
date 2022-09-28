@@ -22,6 +22,7 @@ addEventListener("DOMContentLoaded", ()=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
     // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
     // depósito.
@@ -107,13 +108,23 @@ console.log(`El jefe de obra pagó un total de ${pagó}, sus vueltos fueron ${vu
   // 8. Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. Considere que
   // se cobra por m2 y realice el código que representen el algoritmo que le permita ir generando
   // presupuestos para cada cliente.
+=======
+  // 9. Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo,
+  // pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron. Realice el código
+  // que representen el algoritmo para solucionar este problema.
+>>>>>>> d787276 (Ejercicio 9 F2)
   
   
-  let precio = Number(prompt("Ingrese el valor por m2:"))
-  let metroc = Number(prompt("Ingrese la cantidad de m2:"))
+  let nombre = prompt("Ingrese el nombre:")
+  let año = Number(prompt("Ingrese el año de nacimiento:"))
+  let añoac = Number(prompt("Ingrese el año actual"))
 
+<<<<<<< HEAD
   console.log(`El valor total por ${metroc} metro cuadrado es ${precio*metroc}`)
 >>>>>>> 79c2fb7 (Ejercicio 8 F2)
+=======
+  console.log(`La edad que tiene ${nombre} es ${añoac-año}`)
+>>>>>>> d787276 (Ejercicio 9 F2)
 
 >>>>>>> 9892217 (Ejercicio 5 F2)
 })
