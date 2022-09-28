@@ -23,6 +23,7 @@ addEventListener("DOMContentLoaded", ()=>{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // 3. Calcular la edad de una madre en el momento de dio a luz a alguno de sus hijos.
     // • Generar el algoritmo que dé como resultado el tiempo estimado para el llenado de un
     // depósito.
@@ -113,18 +114,27 @@ console.log(`El jefe de obra pagó un total de ${pagó}, sus vueltos fueron ${vu
   // pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron. Realice el código
   // que representen el algoritmo para solucionar este problema.
 >>>>>>> d787276 (Ejercicio 9 F2)
+=======
+  // 10. Ingrese una frase que lo identifique como programador de Software y luego mostar esta frase
+  // invertida.
+>>>>>>> 408880c (Ejercicio 10 F2)
   
-  
-  let nombre = prompt("Ingrese el nombre:")
-  let año = Number(prompt("Ingrese el año de nacimiento:"))
-  let añoac = Number(prompt("Ingrese el año actual"))
+  let frase = prompt("Ingrese la frase de su preferencia:")
 
+  console.log(`La frase es: ${frase}`)
+
+  let fraseinvertida =frase.split("").reverse().join("")
+  console.log(`La frase invertida es: ${fraseinvertida}`)
+
+<<<<<<< HEAD
 <<<<<<< HEAD
   console.log(`El valor total por ${metroc} metro cuadrado es ${precio*metroc}`)
 >>>>>>> 79c2fb7 (Ejercicio 8 F2)
 =======
   console.log(`La edad que tiene ${nombre} es ${añoac-año}`)
 >>>>>>> d787276 (Ejercicio 9 F2)
+=======
+>>>>>>> 408880c (Ejercicio 10 F2)
 
 >>>>>>> 9892217 (Ejercicio 5 F2)
 })
